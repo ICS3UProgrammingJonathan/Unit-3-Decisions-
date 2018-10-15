@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace NumberGuessingGame
+namespace RockPaperScissorJonathanF
 {
-    static class GuessingGame
+    static class RockPaperScissor
     {
         /// <summary>
         /// The main entry point for the application.
@@ -16,7 +16,7 @@ namespace NumberGuessingGame
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmGuessingGame());
+            Application.Run(new frmRockPaperScissor());
         }
     }
 }
